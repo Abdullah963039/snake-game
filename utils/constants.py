@@ -1,0 +1,19 @@
+CELL_SIZE = 35
+CELL_NUMBER = 20
+
+SCREEN_WIDTH = SCREEN_HIGHT = CELL_NUMBER * CELL_SIZE
+
+# Colors
+FOOD_COLOR = (126, 166, 114)
+BACKGROUND_COLOR = (175, 215, 70)
+GRASS_COLOR = (167, 209, 61)
+FONT_COLOR = (56, 74, 12)
+SCORE_BG_COLOR = (167, 209, 61)
+
+# Control
+DIRECTIONS = {
+    "UP": "up",
+    "DOWN": "down",
+    "LEFT": "left",
+    "RIGHT": "right",
+}
